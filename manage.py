@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+os.mkdir('static-build')
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music.settings')
